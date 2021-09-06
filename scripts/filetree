@@ -11,7 +11,7 @@ parser.add_argument('patha', metavar='patha', type=str,
 parser.add_argument('pathb', metavar='pathb', type=str,
                     help="str for path b")
 parser.add_argument('-o', "--operation", metavar='op', type=str,
-                    help="comparison type selection")
+                    help="comparison type selection size/set/bin")
 
 args = parser.parse_args()
 
